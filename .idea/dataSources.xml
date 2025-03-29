@@ -23,6 +23,7 @@
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.resource.type" value="Deployment" />
         <property name="com.intellij.clouds.kubernetes.db.container.port" />
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
@@ -30,7 +31,7 @@
     <data-source source="LOCAL" name="qlbvvnd@localhost [2]" uuid="d53a73ea-57f3-4b97-baad-dfe18f337c6d">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <remarks>demo</remarks>
+      <remarks>Local instance MySQL80</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/qlbvvnd</jdbc-url>
       <jdbc-additional-properties>
